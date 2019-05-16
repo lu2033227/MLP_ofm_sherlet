@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\ofm_extractor">
+      <UniqueIdentifier>{11964076-2033-40cd-bd9e-d7f34b05f491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hsc_extractor">
+      <UniqueIdentifier>{614a4608-c5d3-4a22-a84b-abdd651a3e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Detector">
+      <UniqueIdentifier>{f7c09ffb-a0f4-43dd-b7ab-360da34e2aa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mlp_classify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor\headers.h">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor\HSC.h">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor\HSCmatrices.h">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor\maths.h">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor\misc.h">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\GaussianPyramid.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\Image.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\ImageIO.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\ImageProcessing.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\Matrix.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\NoiseModel.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\OpticalFlow.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\project.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\Stochastic.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor\Vector.h">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hsc_extractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LivenessDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ofm_extractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mlp_classify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hsc_extractor\HSC.cpp">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="hsc_extractor\HSCmatrices.cpp">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="hsc_extractor\maths.cpp">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="hsc_extractor\misc.cpp">
+      <Filter>源文件\hsc_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="hsc_extractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ofm_extractor\GaussianPyramid.cpp">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="ofm_extractor\OpticalFlow.cpp">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="ofm_extractor\Stochastic.cpp">
+      <Filter>源文件\ofm_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="ofm_extractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LivenessDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
